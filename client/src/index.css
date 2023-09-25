@@ -1,0 +1,12 @@
+@tailwind base;
+
+@layer base {
+  button {
+    @apply rounded bg-blue-500 px-4 py-2 text-white  active:bg-blue-400;
+  }
+  input {
+    @apply mr-2 rounded border px-4 py-2;
+  }
+}
+@tailwind components;
+@tailwind utilities;
